@@ -1,0 +1,187 @@
+.App {
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+@media all and (max-width: 424px) {
+  .App {
+    padding-left: 1rem!important;
+  }
+}
+
+
+.MainGrid{
+  width: 100%;
+}
+
+.Main{
+  font-family: 'Noto Sans KR'!important;  
+}
+
+.MyName{
+  font-family: 'Dancing Script'!important;
+  font-size: 3.3rem!important;
+}
+
+.active {
+  font-weight: 1000!important;
+}
+
+.RightSidebar {
+  position: fixed!important;
+  top: 2rem;
+  right: 0;
+  padding-left: 1rem;
+}
+
+.Title-mobile {
+  padding-left: 1rem;
+}
+
+@media all and (max-width: 1023px) {
+  .RightSidebar {
+    visibility: hidden;
+  }
+  
+  .Main {
+    min-width: calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
+  }
+
+  .Title-mobile {
+    display: inline-block;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .Title-mobile {
+    display: none;
+  }
+}
+
+/* Title */
+.Title{
+  padding-left: 0.5rem !important;
+  margin-top: 1.2rem !important;
+  padding-top: 1.2rem !important;
+  font-family: 'Montserrat'!important;
+}
+
+/* About Me */
+.MyImage{
+  padding: 1rem!important;
+  width: 20rem;
+}
+.AboutMe-img{
+  width: 20rem!important;
+}
+.AboutMe-text{
+  padding: 2.0rem!important;
+  padding-top: 1.5rem!important;
+  font-family: 'Noto Sans KR'!important;
+  font-size: 1.5rem;
+  letter-spacing:0.25px;
+  line-height: 130%;
+}
+
+.AboutMe-button{
+  margin-top: 0rem!important;
+}
+
+@media all and (max-width: 699px) {
+  .AboutMe-text {
+    width: 100%!important;
+  }
+}
+@media all and (min-width: 700px) {
+  .AboutMe-text {
+    width: calc(100% - 20rem)!important;
+  }
+}
+
+@media all and (max-width: 374px) {
+  .AboutMe-button-big {
+    display: none!important;
+  }
+  .AboutMe-button-small {
+    display: inline-block;
+  }
+}
+
+@media all and (min-width: 375px) {
+  .AboutMe-button-big {
+    display: inline-block;
+  }
+  .AboutMe-button-small {
+    display: none!important;
+  }
+}
+
+/* Education */
+.Education-block{
+  padding-left: 0.5rem !important;
+}
+
+.ui.container.Education-detail{
+  padding-left: 1.5rem !important;
+  font-family: 'Noto Sans KR'!important;
+  font-size: 1.2rem;
+  color: #777777!important;
+  letter-spacing:0.25px;
+  line-height: 150%;
+  margin-left: 0rem!important;
+}
+
+
+/* Publication */
+.Publication-num {
+  font-family: 'Noto Sans KR'!important;
+  font-size: 1.2rem;
+  padding-left: 2rem!important;
+  width: 5rem!important;
+  font-weight: 700;
+}
+.Publication-text {
+  width: calc(100% - 5rem)!important;
+  padding: 1rem 2rem!important;
+}
+.Publication-block {
+  margin-bottom: 0.2rem!important;
+  font-family: 'Noto Sans KR'!important;
+  
+}
+.Publication-detail {
+  font-family: 'Noto Sans KR'!important;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+.Publication-author-me {
+  text-decoration: underline;
+}
+.Publication-conf {
+  font-weight: 700;
+}
+
+.Award-block {
+  margin-top: 1rem!important;
+  padding-left: 1.5rem!important;
+}
+
+.Teaching-block{
+  padding-left: 1.5rem!important;
+}
+
+
+.ui.vertical.pointing.menu{
+  border-right-style: none!important;
+  border-left-width: 2px!important;
+  /*border-left-style: solid!important;*/
+  border-left-color: rgba(34,36,38,.15);
+}
+
+.ui.secondary.vertical.pointing.menu .item{
+  border-right-style: none!important;
+  border-left-width: 2px!important;
+  border-left-style: solid!important;
+  border-left-color: rgba(34,36,38,.15);
+}
