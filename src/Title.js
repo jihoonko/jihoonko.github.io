@@ -80,6 +80,7 @@ export class PublicationBlock extends Component {
                     </Header>
                     {this.highlightAuthors(this.props.authors)}
                     {this.generateDetails(this.props)}
+                    <div className="Publication-detail">{this.props.comments}</div>
                 </Grid.Column>
                 </Grid>
                 

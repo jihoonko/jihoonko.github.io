@@ -91,7 +91,7 @@ export class Publications extends Component {
                               authors="Hyunju Kim*, Heechan Moon*, Fanchen Bu, Jihoon Ko, and Kijung Shin"
                               confname="The VLDB Journal" conflink="https://www.springer.com/journal/778"
                               paper="http://dmlab.kaist.ac.kr/~kijungs/papers/simpletVLDBJ2025.pdf"
-                              details={{"shorter ver. [C52]": "https://arxiv.org/pdf/2302.05505.pdf",
+                              details={{"shorter ver. [C8]": "https://arxiv.org/pdf/2302.05505.pdf",
                                         "code and datasets": "https://github.com/hhyy0401/simplet_counting",
                                         "bib": undefined}}
                               comments=""
@@ -108,7 +108,7 @@ export class Publications extends Component {
                               authors="Taehyung Kwon, Jihoon Ko, Jinhong Jung, Jun-Gi Jang, and Kijung Shin"
                               confname="Knowledge and Information Systems" conflink="https://www.springer.com/journal/10115"
                               paper="http://dmlab.kaist.ac.kr/~kijungs/papers/tensorcodecKAIS2025.pdf"
-                              details={{"shorter ver. [C60]": "https://arxiv.org/pdf/2309.10310.pdf",
+                              details={{"shorter ver. [C10]": "https://arxiv.org/pdf/2309.10310.pdf",
                                         "slides": "http://dmlab.kaist.ac.kr/~kijungs/tensorcodecICDM2023.pdf",
                                         "code and datasets": "https://github.com/kbrother/tensorcodec",
                                         "bib": undefined}}
@@ -117,8 +117,8 @@ export class Publications extends Component {
             <PublicationBlock name="ELiCiT: Effective and Lightweight Lossy Compression of Tensors" idx="[C12]"
                               authors="Jihoon Ko, Taehyung Kwon, Jinhong Jung, and Kijung Shin"
                               confname="ICDM 2024" conflink="https://icdm2024.org/"
-                              paper="https://github.com/jihoonko/elicit/blob/main/supplementary_material.pdf"
-                              details={{"appendix": undefined,
+                              paper=""
+                              details={{"appendix": "https://github.com/jihoonko/elicit/blob/main/supplementary_material.pdf",
                                         "slides": "http://dmlab.kaist.ac.kr/~kijungs/elicitICDM2024.pdf",
                                         "code and datasets": "https://github.com/jihoonko/icdm24-elicit",
                                         "bib": undefined}}
@@ -146,7 +146,7 @@ export class Publications extends Component {
                               authors="Geon Lee*, Seokbum Yoon*, Jihoon Ko, Hyunju Kim, and Kijung Shin"
                               confname="The VLDB Journal" conflink="https://www.springer.com/journal/778"
                               paper="https://arxiv.org/pdf/2310.15668.pdf"
-                              details={{"shorter ver. [C26]": "https://arxiv.org/pdf/2003.01853.pdf",
+                              details={{"shorter ver. [C4]": "https://arxiv.org/pdf/2003.01853.pdf",
                                         "code and datasets": "https://github.com/jing9044/mochy-with-3h-motif",
                                         "bib": "https://dblp.uni-trier.de/rec/journals/vldb/LeeYKKS24.html?view=bibtex"}}
                               comments=""
@@ -155,12 +155,11 @@ export class Publications extends Component {
                               authors="Taehyung Kwon, Jihoon Ko, Jinhong Jung, and Kijung Shin"
                               confname="ICDM 2023" conflink="https://www.cloud-conf.net/icdm2023/"
                               paper="https://arxiv.org/pdf/2309.10310.pdf"
-                              details={{"longer ver. [J26]": "http://dmlab.kaist.ac.kr/~kijungs/papers/tensorcodecKAIS2025.pdf",
+                              details={{"longer ver. [J6]": "http://dmlab.kaist.ac.kr/~kijungs/papers/tensorcodecKAIS2025.pdf",
                                         "slides": "http://dmlab.kaist.ac.kr/~kijungs/tensorcodecICDM2023.pdf",
                                         "code and datasets": "https://github.com/kbrother/tensorcodec",
-                                        "bib": "https://dblp.uni-trier.de/rec/conf/icdm/KwonKJS23.html?view=bibtex",
-                                        "link": "https://icdm.zhonghuapu.com/Awards/BestPapers.shtml"}}
-                              comments="Received the IEEE ICDM Best Student Paper Runner-up Award [link] / Selected as one of the best-ranked papers of ICDM 2023 for fast-track journal invitation"
+                                        "bib": "https://dblp.uni-trier.de/rec/conf/icdm/KwonKJS23.html?view=bibtex"}}
+                              comments="Received the IEEE ICDM Best Student Paper Runner-up Award / Selected as one of the best-ranked papers of ICDM 2023 for fast-track journal invitation"
                         />
             <PublicationBlock name="NeuKron: Constant-Size Lossy Compression of Sparse Reorderable Matrices and Tensors" idx="[C9]"
                               authors="Taehyung Kwon*, Jihoon Ko*, Jinhong Jung, and Kijung Shin"
@@ -178,7 +177,7 @@ export class Publications extends Component {
                               confname="WWW 2023" conflink="https://www2023.thewebconf.org/"
                               paper="https://arxiv.org/pdf/2302.05505.pdf"
                               details={{"appendix": "https://github.com/hhyy0401/SC3/blob/main/supplementary.pdf",
-                                        "longer ver. [J28]": "http://dmlab.kaist.ac.kr/~kijungs/papers/simpletVLDBJ2025.pdf",
+                                        "longer ver. [J8]": "http://dmlab.kaist.ac.kr/~kijungs/papers/simpletVLDBJ2025.pdf",
                                         "video": "https://youtu.be/xIP9lz-UtEI",
                                         "slides": "http://dmlab.kaist.ac.kr/~kijungs/simpletWWW2023.pdf",
                                         "code and datasets": "https://github.com/hhyy0401/SC3",
@@ -207,7 +206,7 @@ export class Publications extends Component {
                               authors="Jihoon Ko*, Yunbum Kook*, and Kijung Shin"
                               confname="Knowledge and Information Systems" conflink="https://www.springer.com/journal/10115"
                               paper="http://dmlab.kaist.ac.kr/~kijungs/papers/growthKAIS2022.pdf"
-                              details={{"shorter ver. [C27]": "https://arxiv.org/pdf/2008.12729.pdf",
+                              details={{"shorter ver. [C5]": "https://arxiv.org/pdf/2008.12729.pdf",
                                         "code and datasets": "https://github.com/jihoonko/HyperFF",
                                         "bib": "https://dblp.uni-trier.de/rec/journals/kais/KoKS22.html?view=bibtex"}}
                               comments=""
@@ -242,7 +241,7 @@ export class Publications extends Component {
                               authors="Yunbum Kook, Jihoon Ko, and Kijung Shin"
                               confname="ICDM 2020" conflink="http://icdm2020.bigke.org/"
                               paper="https://arxiv.org/pdf/2008.12729.pdf"
-                              details={{"longer ver. [J13]": "http://dmlab.kaist.ac.kr/~kijungs/growthKAIS2022.pdf",
+                              details={{"longer ver. [J2]": "http://dmlab.kaist.ac.kr/~kijungs/growthKAIS2022.pdf",
                                         "video": "https://www.youtube.com/watch?v=lCBlOAK0nlw",
                                         "slides": "http://dmlab.kaist.ac.kr/~kijungs/evolutionICDM2020.pdf",
                                         "code and datasets": "https://github.com/yunbum-kook/icdm20-hyperff",
@@ -254,7 +253,7 @@ export class Publications extends Component {
                               confname="VLDB 2020" conflink="https://vldb2020.org/"
                               paper="https://arxiv.org/pdf/2003.01853.pdf"
                               details={{"appendix": "https://github.com/geonlee0325/MoCHy/blob/master/supplementary.pdf",
-                                        "longer ver. [J22]": "https://arxiv.org/pdf/2310.15668.pdf",
+                                        "longer ver. [J4]": "https://arxiv.org/pdf/2310.15668.pdf",
                                         "video": "https://youtu.be/HYHkEwojfBQ",
                                         "slides": "https://www.slideshare.net/GeonLee9/hmotif-vldb2020-slide",
                                         "code and datasets": "http://dmlab.kaist.ac.kr/hmotif/",
@@ -301,6 +300,17 @@ export class Awards extends Component {
         return (
         <div ref={this.props.innerRef}>
             <Title name="Awards &amp; Honors" icon="trophy"/>
+            <AwardBlock name="IEEE ICDM Best Student Paper Runner-up Award"
+                            details={["IEEE ICDM, 2023"]}               
+            />
+            <AwardBlock name="Best-Ranked Papers of IEEE ICDM"
+                            details={["IEEE ICDM, 2020, 2023, 2024"]}               
+            />
+
+            <AwardBlock name="Korea Foundation for Advanced Studies (KFAS) Scholarship"
+                            details={["KFAS, Sep. 2020 - Feb. 2025"]}               
+            />
+            
             <ICPCBlock name="International Collegiate Programming Contest (ICPC)"
                             details={["39th Place in ICPC World Finals 2020 Invitational (Online Contest)",
                                       "9th Place (Bronze Medal) in ACM-ICPC World Finals 2017, Rapid City, USA",
