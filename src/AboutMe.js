@@ -17,7 +17,7 @@ export class AboutMe extends Component {
                 src={me} alt={"me"}/>
             </Grid.Column>
             <Grid.Column className="AboutMe-text">
-            I am Jihoon Ko (고지훈). I received my Ph.D. in Aritificial Intelligence from <a href='https://gsai.kaist.ac.kr'>Kim Jaechul Graduate School of AI at KAIST</a>, where I was advised by <a href='https://kijungshin.com'>Prof. Kijung Shin</a>. I received my B.S. in Computer Science and Mathematics from KAIST. My current research interests are Graph Mining, Tensor Mining, and Scalable and Efficient Machine Learning.
+            I am Jihoon Ko (고지훈). I received my Ph.D. in Artificial Intelligence from <a href='https://gsai.kaist.ac.kr'>Kim Jaechul Graduate School of AI at KAIST</a>, where I was advised by <a href='https://kijungshin.com'>Prof. Kijung Shin</a>. I received my B.S. in Computer Science and Mathematics from KAIST. My current research interests are Graph Mining, Tensor Mining, and Scalable and Efficient Machine Learning.
                 <p></p>
                 <Button as='a' href='https://www.dropbox.com/scl/fi/ai9kd1cey8uu40qh65gp4/CV_jihoon.pdf?rlkey=nl26bz5jcxc3jh2ksu1ul3p8m&dl=0' primary size='big' className="AboutMe-button">
                   <Icon name='download' /> Download C.V.
@@ -45,7 +45,7 @@ export class Education extends Component {
         <div ref={this.props.innerRef}>
             <Title name="Education" icon="graduation cap"/>
             <EducationBlock name="Korea Advanced Institute of Science and Technology (KAIST)"
-                            details={["Ph.D. in Aritificial Intelligence (Sep. 2019 - Feb. 2025)",
+                            details={["Ph.D. in Artificial Intelligence (Sep. 2019 - Feb. 2025)",
                                       "> Thesis: Compression of Large-scale Real-world Graphs and Tensors",
                                       "B.S. in Computer Science (Mar. 2015 - Sep. 2019)",
                                       "B.S. in Mathematics (Mar. 2015 - Sep. 2019, double major)"
