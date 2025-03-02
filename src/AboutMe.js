@@ -17,7 +17,7 @@ export class AboutMe extends Component {
                 src={me} alt={"me"}/>
             </Grid.Column>
             <Grid.Column className="AboutMe-text">
-            I am Jihoon Ko (고지훈). I received my Ph.D. in Artificial Intelligence from <a href='https://gsai.kaist.ac.kr'>Kim Jaechul Graduate School of AI at KAIST</a>, where I was advised by <a href='https://kijungshin.com'>Prof. Kijung Shin</a>. I received my B.S. in Computer Science and Mathematics from KAIST. My current research interests are Graph Mining, Tensor Mining, and Scalable and Efficient Machine Learning.
+            I am Jihoon Ko (고지훈), a machine learning engineer at <a href='https://moloco.com'>Moloco</a>. I received my Ph.D. in Artificial Intelligence from <a href='https://gsai.kaist.ac.kr'>Kim Jaechul Graduate School of AI at KAIST</a>, where I was advised by <a href='https://kijungshin.com'>Prof. Kijung Shin</a>. I received my B.S. in Computer Science and Mathematics from KAIST. My current research interests are Graph Mining, Tensor Mining, and Scalable and Efficient Machine Learning.
                 <p></p>
                 <Button as='a' href='https://www.dropbox.com/scl/fi/ai9kd1cey8uu40qh65gp4/CV_jihoon.pdf?rlkey=nl26bz5jcxc3jh2ksu1ul3p8m&dl=0' primary size='big' className="AboutMe-button">
                   <Icon name='download' /> Download C.V.
@@ -26,10 +26,10 @@ export class AboutMe extends Component {
                 <Button as='a' href='https://github.com/jihoonko' icon secondary>
                   <Icon name='github' inverted color='white'/>
                 </Button>
-                <Button as='a' href='mailto:jihoonko@kaist.ac.kr' icon className="AboutMe-button-small">
+                <Button as='a' href='mailto:j1ho0n@naver.com' icon className="AboutMe-button-small">
                   <Icon name='mail' />
                 </Button>
-                <Button icon as='a' href='mailto:jihoonko@kaist.ac.kr' labelPosition='left' className="AboutMe-button-big">
+                <Button icon as='a' href='mailto:j1ho0n@naver.com' labelPosition='left' className="AboutMe-button-big">
                   <Icon name='mail' />
                   j1ho0n (at) naver.com
                 </Button>
@@ -342,6 +342,10 @@ export class Works extends Component {
         return (
         <div ref={this.props.innerRef}>
             <Title name="Work Experiences" icon="briefcase"/>
+            <AwardBlock name="Machine Learning Engineer @ Moloco"
+                            details={["Seoul, Korea, Mar 2025 - ",
+                                      ]}                      
+            />
             <AwardBlock name="Intern @ Kakao Corporation"
                             details={["Internship in Advanced Recommendation Technology team, Dec 2017 - May 2018",
                                       "Topic: Improving article recommendation algorithm in Brunch",
