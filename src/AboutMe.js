@@ -11,7 +11,7 @@ export class AboutMe extends Component {
         return (
         <div ref={this.props.innerRef}>
             <Title name="About Me" icon="user circle"/>
-            <Grid columns={3}>
+            <Grid columns={2}>
             <Grid.Column className="AboutMe-img">
                 <img className="MyImage"
                 src={me} alt={"me"}/>
