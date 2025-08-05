@@ -19,7 +19,7 @@ export class AboutMe extends Component {
             <Grid.Column className="AboutMe-text">
             I am Jihoon Ko (고지훈), a machine learning engineer at <a href='https://moloco.com'>Moloco</a>. I received my Ph.D. in Artificial Intelligence from <a href='https://gsai.kaist.ac.kr'>Kim Jaechul Graduate School of AI at KAIST</a>, where I was advised by <a href='https://kijungshin.com'>Prof. Kijung Shin</a>. I received my B.S. in Computer Science and Mathematics from KAIST. My current research interests are Graph Mining, Tensor Mining, and Scalable and Efficient Machine Learning.
                 <p></p>
-                <Button as='a' href='https://www.dropbox.com/scl/fi/ai9kd1cey8uu40qh65gp4/CV_jihoon.pdf?rlkey=nl26bz5jcxc3jh2ksu1ul3p8m&dl=0' primary size='big' className="AboutMe-button">
+                <Button as='a' href='https://www.dropbox.com/scl/fi/pj6d4u5t7epy77fol8uo2/My_CV.pdf?rlkey=k7f1qj24c7ka7nvi3iksvkh5m&e=5&dl=0' primary size='big' className="AboutMe-button">
                   <Icon name='download' /> Download C.V.
                 </Button>
                 <Divider />
@@ -67,6 +67,26 @@ export class Publications extends Component {
             <Icon name='scholar' /><Icon name='archive' />
             <Header.Content><a href="https://dblp.org/pid/127/7344.html">DBLP</a></Header.Content>
             </Header>
+            <PublicationBlock name="Inductive Influence Estimation and Maximization over Unseen Social Networks under Two Diffusion Models" idx="[J10]"
+                              authors="Jihoon Ko*, Sojeong Kim*, Kyuhan Lee, Shinhwan Kang, Dongyeong Hwang, Kijung Shin, and Noseong Park"
+                              confname="Data Mining and Knowledge Discovery" conflink="https://www.springer.com/journal/10618"
+                              paper=""
+                              details={{"slides": undefined,
+                                        "poster": undefined,
+                                        "code and datasets": undefined,
+                                        "bib": undefined}}
+                              comments=""
+                        />
+            <PublicationBlock name="Effective and Lightweight Lossy Compression of Tensors: Techniques and Applications" idx="[J9]"
+                              authors="Jihoon Ko, Taehyung Kwon, Jinhong Jung, and Kijung Shin"
+                              confname="Knowledge and Information Systems" conflink="https://www.springer.com/journal/10115/"
+                              paper=""
+                              details={{"slides": undefined,
+                                        "poster": undefined,
+                                        "code and datasets": undefined,
+                                        "bib": undefined}}
+                              comments=""
+                        />
             <PublicationBlock name="Kronecker Generative Models for Power-Law Patterns in Real-World Hypergraphs" idx="[C14]"
                               authors="Minyoung Choe, Jihoon Ko, Taehyung Kwon, Kijung Shin, and Christos Faloutsos"
                               confname="WWW 2025" conflink="https://www2025.thewebconf.org/"
@@ -300,6 +320,9 @@ export class Awards extends Component {
         return (
         <div ref={this.props.innerRef}>
             <Title name="Awards &amp; Honors" icon="trophy"/>
+            <AwardBlock name="Outstanding Reviewers of ACM KDD"
+                            details={["ACM KDD, 2025"]}               
+            />
             <AwardBlock name="IEEE ICDM Best Student Paper Runner-up Award"
                             details={["IEEE ICDM, 2023"]}               
             />
